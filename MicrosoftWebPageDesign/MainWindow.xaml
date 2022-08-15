@@ -1,0 +1,589 @@
+﻿<Window
+    x:Class="MicrosoftWebPageDesign.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MicrosoftWebPageDesign"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    Title="MainWindow"
+    Width="1518"
+    Background="Transparent"
+    ResizeMode="NoResize"
+    WindowState="Maximized"
+    WindowStyle="None">
+    <Border Background="White" CornerRadius="10">
+
+        <Grid>
+            <Grid VerticalAlignment="Top" />
+
+
+            <Grid Margin="0,80,0,0">
+                <ScrollViewer
+                    Background="#190649"
+                    HorizontalScrollBarVisibility="Auto"
+                    VerticalScrollBarVisibility="Auto">
+                    <Grid>
+                        <Image Height="5630" Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\anniversary-bg.png" />
+                        <Image
+                            Height="315"
+                            Margin="66,238,862,0"
+                            VerticalAlignment="Top"
+                            Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\anniversary-logo.png" />
+                        <Image
+                            Margin="566,682,-86,0"
+                            VerticalAlignment="Top"
+                            Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\four-devices.png" />
+
+                        <TextBlock
+                            Margin="583,284,0,0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            FontFamily="Fira Code"
+                            FontSize="40"
+                            FontWeight="Bold"
+                            Foreground="AliceBlue">
+                            Free. Cross-platform. Open source.<LineBreak />
+                            A developer platform for building<LineBreak />
+                            all your apps.</TextBlock>
+
+                        <StackPanel
+                            Width="500"
+                            Height="100"
+                            Margin="800,450,0,0"
+                            VerticalAlignment="Top"
+                            Orientation="Horizontal">
+                            <Button
+                                Width="230"
+                                Height="50"
+                                Margin="10"
+                                Background="White"
+                                Content="Get Started"
+                                Foreground="#6134D9" />
+                            <Button
+                                Width="230"
+                                Height="50"
+                                Margin="10"
+                                Content="Download" />
+                        </StackPanel>
+
+                        <TextBlock
+                            Height="60"
+                            Margin="50,744,1127,0"
+                            VerticalAlignment="Top"
+                            FontSize="50"
+                            Foreground="White"
+                            Text="Build apps for" />
+
+
+                        <TextBlock
+                            Height="60"
+                            Margin="370,744,879,0"
+                            VerticalAlignment="Top"
+                            FontSize="50"
+                            Text="any device">
+                            <TextBlock.Foreground>
+                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                    <GradientStop Color="White" />
+                                    <GradientStop Offset="1" Color="#FF0017FF" />
+                                </LinearGradientBrush>
+                            </TextBlock.Foreground>
+                        </TextBlock>
+
+                        <TextBlock
+                            Height="103"
+                            Margin="50,809,1031,0"
+                            VerticalAlignment="Top"
+                            Foreground="White">
+                            Build native apps for Android, iOS,<LineBreak />
+                            macOS and Windows from a single<LineBreak />
+                            codebase with .NET Multi-platform App<LineBreak />
+                            UI (.NET MAUI).</TextBlock>
+
+                        <Button
+                            Height="28"
+                            Margin="50,886,1359,0"
+                            VerticalAlignment="Top"
+                            Background="Transparent"
+                            BorderBrush="White"
+                            Content=".NET MAUI" />
+                        <TextBlock
+                            Height="103"
+                            Margin="302,811,779,0"
+                            VerticalAlignment="Top"
+                            Foreground="White">
+                            Build interactive web and hybrid native<LineBreak />
+                            apps using HTML, CSS and C# with<LineBreak />
+                            Blazor..</TextBlock>
+
+                        <Button
+                            Height="28"
+                            Margin="302,886,1107,0"
+                            VerticalAlignment="Top"
+                            Background="Transparent"
+                            BorderBrush="White"
+                            Content="Blazor" />
+
+                        <Grid
+                            x:Name="ExploreDotnet"
+                            Height="660"
+                            Margin="0,0,0,2600"
+                            VerticalAlignment="Center">
+                            <TextBlock
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Top"
+                                FontSize="50"
+                                Foreground="White"
+                                Text="Explore .NET" />
+                        </Grid>
+
+                        <Grid Height="200" Margin="0,0,0,2800">
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="6,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="Web" />
+                                    <TextBlock
+                                        Margin="0,0,90,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="50"
+                                        Foreground="White"
+                                        Text="Web" />
+                                    <TextBlock
+                                        Margin="90,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Build web apps and services for<LineBreak />
+                                        Windows, Linux, macOS, and<LineBreak />
+                                        Docker</TextBlock>
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="382,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="Smartphone" />
+                                    <TextBlock
+                                        Margin="0,0,20,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="50"
+                                        Foreground="White"
+                                        Text="Mobile" />
+                                    <TextBlock
+                                        Margin="70,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Use a single codebase to build<LineBreak />
+                                        native mobile apps for IOS<LineBreak />
+                                        Android and more</TextBlock>
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="764,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="DesktopWindows" />
+                                    <TextBlock
+                                        Margin="10,0,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="50"
+                                        Foreground="White"
+                                        Text="Desktop" />
+                                    <TextBlock
+                                        Margin="100,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Create native apps for Windows<LineBreak />
+                                        and macOS or build apps that run<LineBreak />
+                                        anywhere with web technologies</TextBlock>
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="1146,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="ShapeRectanglePlus" />
+                                    <TextBlock
+                                        Margin="90,0,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="47"
+                                        Foreground="White"
+                                        Text="Microservice" />
+                                    <TextBlock
+                                        Margin="100,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Create independently deployable<LineBreak />
+                                        microservices that run on Docker<LineBreak />
+                                        containers.</TextBlock>
+                                </Grid>
+                            </Border>
+                        </Grid>
+
+
+                        <Grid Height="200" Margin="0,0,0,2420">
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="6,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="CloudOutline" />
+                                    <TextBlock
+                                        Margin="0,0,40,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="47"
+                                        Foreground="White"
+                                        Text="Cloud" />
+                                    <TextBlock
+                                        Margin="100,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Consume existing cloud services,<LineBreak />
+                                        or create and deploy your own</TextBlock>
+
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="382,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="CircleHalfFull" />
+
+                                    <TextBlock
+                                        Margin="60,5,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="30"
+                                        Foreground="White"
+                                        Text="Machine Learning" />
+                                    <TextBlock
+                                        Margin="70,50,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Add vision algorithms, speech<LineBreak />
+                                        processing, predictive models,<LineBreak />
+                                        and more to your apps.</TextBlock>
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="764,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="GamepadClassic" />
+                                    <TextBlock
+                                        Margin="90,5,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="30"
+                                        Foreground="White"
+                                        Text="Game Development" />
+                                    <TextBlock
+                                        Margin="70,50,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="18"
+                                        Foreground="White">
+                                        Develop 2D and 3D games<LineBreak />
+                                        for the most popular desktops,<LineBreak />
+                                        phones, and consoles.</TextBlock>
+                                </Grid>
+                            </Border>
+
+                            <Border
+                                Width="370"
+                                Height="180"
+                                Margin="1146,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="#190649"
+                                BorderBrush="Blue"
+                                BorderThickness="1">
+                                <Grid>
+                                    <md:PackIcon
+                                        Width="80"
+                                        Height="80"
+                                        Margin="10"
+                                        VerticalAlignment="Top"
+                                        Foreground="White"
+                                        Kind="Robot" />
+                                    <TextBlock
+                                        Margin="80,15,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="35"
+                                        Foreground="White"
+                                        Text="Internet of Thigs" />
+                                    <TextBlock
+                                        Margin="90,60,0,0"
+                                        HorizontalAlignment="Center"
+                                        FontSize="17"
+                                        Foreground="White">
+                                        Make IoT apps, with native support<LineBreak />
+                                        for the Raspberry Pi and other<LineBreak />
+                                        single-board computers.</TextBlock>
+
+                                </Grid>
+
+                            </Border>
+
+                        </Grid>
+                        <Border Height="400" Margin="40,0,0,1800">
+                            <Grid>
+                                <TextBlock
+                                    Width="500"
+                                    Height="100"
+                                    Margin="40,0,0,150"
+                                    HorizontalAlignment="Left"
+                                    FontSize="60"
+                                    Foreground="White"
+                                    Text="Languages" />
+                                <TextBlock
+                                    Width="800"
+                                    Height="100"
+                                    Margin="40,15,0,0"
+                                    HorizontalAlignment="Left"
+                                    FontSize="28"
+                                    Foreground="White"
+                                    Text="You can write your .NET apps in C#, F#, or Visual Basic." />
+
+                                <Image HorizontalAlignment="Right" Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\languages.png" />
+                            </Grid>
+                        </Border>
+
+                        <Border Height="400" Margin="40,0,0,800">
+                            <Grid Background="#190649">
+                                <TextBlock
+                                    Width="500"
+                                    Height="100"
+                                    Margin="0,70,91,230"
+                                    HorizontalAlignment="Right"
+                                    FontSize="60"
+                                    Foreground="White"
+                                    Text="One Platform" />
+                                <TextBlock
+                                    Width="591"
+                                    Margin="0,170,0,89"
+                                    HorizontalAlignment="Right"
+                                    FontSize="28"
+                                    Foreground="White">
+                                    Your skills, code, and favorite libraries apply<LineBreak />
+                                    anywhere you use .NET..</TextBlock>
+
+                                <Image HorizontalAlignment="Left" Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\platform.png" />
+                            </Grid>
+                        </Border>
+
+                        <Border Height="400" Margin="40,80,0,0">
+                            <Grid>
+                                <TextBlock
+                                    Width="500"
+                                    Height="200"
+                                    Margin="40,0,0,150"
+                                    HorizontalAlignment="Left"
+                                    FontSize="60"
+                                    Foreground="White">
+                                    .NET for Beginners<LineBreak />
+                                    Video Series</TextBlock>
+                                <TextBlock
+                                    Width="800"
+                                    Height="100"
+                                    Margin="40,105,0,0"
+                                    HorizontalAlignment="Left"
+                                    FontSize="28"
+                                    Foreground="White">
+                                    You can learn more about what .NET<LineBreak />
+                                    can do with these free videos.</TextBlock>
+
+                                <Image HorizontalAlignment="Right" Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\swimlane-subscribe-to-news-tips.png" />
+                            </Grid>
+                        </Border>
+
+                        <Border Height="400" Margin="40,1000,0,0">
+                            <Grid Background="#190649">
+                                <TextBlock
+                                    Width="500"
+                                    Height="200"
+                                    Margin="0,44,91,156"
+                                    HorizontalAlignment="Right"
+                                    FontSize="60"
+                                    Foreground="White">
+                                    Thank You to All<LineBreak />
+                                    the Contributors</TextBlock>
+                                <TextBlock
+                                    Width="591"
+                                    Margin="0,210,0,49"
+                                    HorizontalAlignment="Right"
+                                    FontSize="28"
+                                    Foreground="White">
+                                    Your skills, code, and favorite libraries apply<LineBreak />
+                                    anywhere you use .NET..</TextBlock>
+
+                                <Image HorizontalAlignment="Left" Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\free-code-editor-tools-bot-desk.png" />
+                            </Grid>
+                        </Border>
+                        <Grid
+                            Height="350"
+                            Margin="0,2000,0,0"
+                            Background="White">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Image
+                                Grid.Column="0"
+                                Height="60"
+                                Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\chipotle.png" />
+
+                            <Image
+                                Grid.Column="1"
+                                Height="80"
+                                Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\ampas.png" />
+
+                            <Image
+                                Grid.Column="2"
+                                Height="60"
+                                Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\ge-aviation.png" />
+
+                            <Image
+                                Grid.Column="3"
+                                Height="80"
+                                Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\ups.png" />
+
+                            <Image
+                                Grid.Column="4"
+                                Height="60"
+                                Source="C:\Users\muham\source\repos\MicrosoftWebPageDesign\MicrosoftWebPageDesign\Images\stackoverflow.png" />
+                        </Grid>
+
+                        <Grid
+                            Height="350"
+                            Margin="0,2710,0,0"
+                            Background="#771EC8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock
+                                Grid.Column="0"
+                                Margin="70"
+                                FontSize="40"
+                                Foreground="White"
+                                Text="Ready to Get Started?" />
+                            <TextBlock
+                                Grid.Column="0"
+                                Margin="75,130,0,0"
+                                FontSize="20"
+                                Foreground="White"
+                                Text="Our step-by-step tutorial will help you get .NET running on your computer." />
+
+                            <TextBlock
+                                Grid.Column="1"
+                                Margin="0,0,0,60"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                FontSize="20"
+                                Foreground="White"
+                                Text="Supported on Windows, Linux, and macOS" />
+
+                            <Button
+                                Grid.Column="1"
+                                Width="300"
+                                Height="40"
+                                Margin="229,175,230,135"
+                                Background="White"
+                                Content="Get Strated"
+                                Foreground="#8821B2" />
+                        </Grid>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+    </Border>
+</Window>

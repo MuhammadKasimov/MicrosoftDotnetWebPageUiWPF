@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rudgS3GyXfLmoEpwVjq2XEefsqTKpUIeWpH6AqcqT8JKQCL/YwSGZ+mLy3StV3SoV96nZax7o71zJ1E2PBOm0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muham\\source\\repos\\MicrosoftWebPageDesign\\MicrosoftWebPageDesign\\MicrosoftWebPageDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muham\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\muham\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
